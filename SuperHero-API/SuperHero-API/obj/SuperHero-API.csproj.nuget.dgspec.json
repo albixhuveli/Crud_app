@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\X\\Desktop\\Crud_app\\SuperHero-API\\SuperHero-API\\SuperHero-API.csproj": {}
+    "C:\\users\\x\\desktop\\crud_app\\SuperHero-API\\SuperHero-ApI\\SuperHero-API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\X\\Desktop\\Crud_app\\SuperHero-API\\SuperHero-API\\SuperHero-API.csproj": {
+    "C:\\users\\x\\desktop\\crud_app\\SuperHero-API\\SuperHero-ApI\\SuperHero-API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\X\\Desktop\\Crud_app\\SuperHero-API\\SuperHero-API\\SuperHero-API.csproj",
+        "projectUniqueName": "C:\\users\\x\\desktop\\crud_app\\SuperHero-API\\SuperHero-ApI\\SuperHero-API.csproj",
         "projectName": "SuperHero-API",
-        "projectPath": "C:\\Users\\X\\Desktop\\Crud_app\\SuperHero-API\\SuperHero-API\\SuperHero-API.csproj",
+        "projectPath": "C:\\users\\x\\desktop\\crud_app\\SuperHero-API\\SuperHero-ApI\\SuperHero-API.csproj",
         "packagesPath": "C:\\Users\\X\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\X\\Desktop\\Crud_app\\SuperHero-API\\SuperHero-API\\obj\\",
+        "outputPath": "C:\\users\\x\\desktop\\crud_app\\SuperHero-API\\SuperHero-ApI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,20 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
