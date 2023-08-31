@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Component, EventEmitter, Input, Output, OnInit } from '@angular/core';
 import { SuperHero } from 'src/app/models/super-hero';
 import { SuperHeroService } from 'src/app/services/super-hero.service';
 
@@ -7,14 +7,14 @@ import { SuperHeroService } from 'src/app/services/super-hero.service';
   templateUrl: './edit-hero.component.html',
   styleUrls: ['./edit-hero.component.css']
 })
-export class EditHeroComponent {
+export class EditHeroComponent implements OnInit {
 
   @Input() hero?: SuperHero;
   @Output() heroesUpdated = new EventEmitter<SuperHero[]>();
 
   constructor(private superHeroService: SuperHeroService) {}
 
-  ngOnItit(): void {}
+  ngOnInit(): void {}
 
   updateHero(hero: SuperHero) {
     this.superHeroService
