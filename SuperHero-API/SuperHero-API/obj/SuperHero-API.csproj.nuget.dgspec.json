@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\X\\Desktop\\Crud_app\\SuperHero-API\\SuperHero-API\\SuperHero-API.csproj": {}
+    "C:\\Users\\X\\Desktop\\projects\\bookkeeping_app\\SuperHero-API\\SuperHero-API\\SuperHero-API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\X\\Desktop\\Crud_app\\SuperHero-API\\SuperHero-API\\SuperHero-API.csproj": {
+    "C:\\Users\\X\\Desktop\\projects\\bookkeeping_app\\SuperHero-API\\SuperHero-API\\SuperHero-API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\X\\Desktop\\Crud_app\\SuperHero-API\\SuperHero-API\\SuperHero-API.csproj",
+        "projectUniqueName": "C:\\Users\\X\\Desktop\\projects\\bookkeeping_app\\SuperHero-API\\SuperHero-API\\SuperHero-API.csproj",
         "projectName": "SuperHero-API",
-        "projectPath": "C:\\Users\\X\\Desktop\\Crud_app\\SuperHero-API\\SuperHero-API\\SuperHero-API.csproj",
+        "projectPath": "C:\\Users\\X\\Desktop\\projects\\bookkeeping_app\\SuperHero-API\\SuperHero-API\\SuperHero-API.csproj",
         "packagesPath": "C:\\Users\\X\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\X\\Desktop\\Crud_app\\SuperHero-API\\SuperHero-API\\obj\\",
+        "outputPath": "C:\\Users\\X\\Desktop\\projects\\bookkeeping_app\\SuperHero-API\\SuperHero-API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
